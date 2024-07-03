@@ -1,13 +1,13 @@
-import React from 'react'
-import Card from './assets/Componentes/Card'
-import './App.css'
+import React from 'react';
+import MilkShakeSection from './componentes/MilkShakeSection';
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <Card/>
+    <div className="app">
+      <MilkShakeSection />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
